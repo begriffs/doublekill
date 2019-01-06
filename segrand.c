@@ -17,7 +17,7 @@ int main(void)
 	 * the maximum value for ptrdiff_t */
 	while (1)
 	{
-		printf("%zd\n", v - victim);
+		printf("%ld\n", v - victim);
 		*v++ = '!';
 	}
 }
