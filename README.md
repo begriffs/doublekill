@@ -8,7 +8,7 @@ allow it to lapse into the default handler. Some systems (like OpenBSD) do not
 require handlers to reinstate themselves and block a storm of signals while a
 handler is processing, so you won't be able to mess programs up.
 
-Usage: ./dkill -p <pid> -x <times>
+Usage: ./dkill -p \<pid\> -x \<times\>
 
 #### Catcher
 
