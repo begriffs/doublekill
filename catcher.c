@@ -5,7 +5,7 @@
 
 void int_catch(int);
 
-static sig_atomic_t intflag = 0;
+static volatile sig_atomic_t intflag = 0;
 
 int main(void)
 {
