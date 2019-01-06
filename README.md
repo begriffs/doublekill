@@ -26,3 +26,5 @@ How to get ten random numbers:
 ```sh
 yes | head -n 10 | xargs -L 1 sh -c './segrand | tail -1'
 ```
+
+(Works on OpenBSD, but on MacOS the number is deterministic)
