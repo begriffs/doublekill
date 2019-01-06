@@ -43,7 +43,7 @@ int main(int argc, char **argv)
 			perror("Error killing");
 			return 1;
 		}
-		putchar('.');
+		fputc('.', stderr);
 	}
 	puts("");
 	return 0;
